@@ -1,0 +1,385 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    font-family:"Open Sans",sans-serif;
+    font-size: 16px;
+}
+
+.contenedor{
+    width:90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* ------- --- INICIO HEADER --- -------*/
+header{
+    background: url('../img/bg.jpg') #49a3d6;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 500px;
+}
+
+header .menu nav {
+    margin: 0;
+    text-align: right;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgba(0, 0, 0,0.7);
+}
+
+header .menu nav ul{
+    list-style: none;
+    margin:0;
+    padding:0 0 5px 0;
+}
+
+header .menu nav ul li{
+    display: inline;
+    width: 100%;
+    margin:0 2px;
+}
+header .menu nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 15px 10px 5px 10px;
+    color: #fff;
+    padding-bottom: 9px;
+    font-size: 1em;
+    border-bottom: 2px solid transparent;
+    font-weight: bold;
+}
+
+header .menu a:hover{
+    border-bottom: 2px solid #fff;
+    padding: 15px 10px 9px 10px;
+    background-color: rgba(255, 255, 255,0.4);
+    color: rgba(52, 73, 94,1);
+    font-weight: bold;
+}
+
+header .contenedor-texto{
+    display:flex;
+    margin: 190px 0;
+    justify-content: center;
+    align-content: center;
+}
+
+header .contenedor-texto .texto{
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 5px;
+    display:inline-block;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+header .contenedor-texto .texto:hover{
+    border: solid 2px rgba(0, 0, 0, 0.8);
+    box-shadow: 3px 2px 5px #1c1c1c;
+}
+
+header .contenedor-texto .texto h1,
+header .contenedor-texto .texto h2{
+    color:#fff;
+    font-weight: 300;
+    margin: 0;
+}
+
+header .contenedor-texto .texto .nombre{
+    margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+header .contenedor-texto .texto .profesion{
+    font-size: 25px;
+    line-height: 25px;
+}
+/* ------- --- FIN HEADER --- -------*/
+
+/* ------- --- INICIO MAIN --- -------*/
+.main .contenedor{
+    overflow: visible;
+}
+
+.main .acerca-de {
+    text-align: center;
+}
+
+.main .acerca-de .contenedor .foto{
+    margin-top: -60px;
+}
+
+.main .acerca-de .contenedor .foto img{
+    vertical-align: top;
+    border-radius: 100%;
+    border: solid 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+
+.main .acerca-de .contenedor .foto img:hover{
+    transform: scale(1.6);
+    border: solid 5px rgba(0, 0, 0, 0.8);
+}
+
+.main .acerca-de .texto{
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 30px;
+    width: 80%;
+    margin: 40px auto 60px auto;
+}
+
+.main .acerca-de .texto .titulo{
+    font-size:34px;
+    line-height:34px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    text-align: center;
+    color: #dd820d;
+    opacity:0.8;
+}
+
+.main .acerca-de .texto .titulo:hover{
+    opacity:1;
+}
+
+.main .proyectos{
+    background: #f9f6f6;
+    padding: 60px 0;
+    background-color: #333;
+}
+
+.main .proyectos .contenedor{
+    overflow: hidden;
+}
+
+.main .proyectos .titulo{
+    font-size: 34px;
+    line-height:34px;
+    margin-bottom: 40px;
+    font-weight:600;
+    color: #dbdaf3;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.main .proyectos .titulo:hover{
+    opacity:1;
+}
+
+.main .proyectos .contenedor-proyectos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 10px 0 15px;
+}
+
+.main .proyectos .contenedor-proyectos .proyecto{
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.main .proyectos .contenedor-proyectos .proyecto .thumb{
+    width:80%;
+    margin: 0 10px 10px 10px;
+}
+
+.main .proyectos .contenedor-proyectos .proyecto .thumb img{
+    width: 100%;
+    vertical-align: top;
+    border-radius: 5px;
+    transition: .2s transform ease;
+    opacity: 0.5;
+}
+.main .proyectos .contenedor-proyectos .proyecto .thumb img:hover {
+    opacity: 1;
+    transform: scale(1.3);
+    box-shadow: 13px 13px 13px #0a0a0a;
+    cursor: pointer;
+}
+
+.main .proyectos .contenedor-proyectos .proyecto .descripcion{
+    text-align: center;
+}
+
+.main .proyectos .contenedor-proyectos .proyecto .descripcion .nombre{
+    font-weight: 700;
+    color: #c0bcbe;
+    margin-bottom: 10px;
+}
+.main .proyectos .contenedor-proyectos .proyecto .descripcion .categoria{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 700;
+}
+/* ------- --- FIN MAIN --- -------*/
+
+/* ------- --- INICIO FOOTER --- -------*/
+
+/* ------- --- Contacto --- -------*/
+footer .contacto {
+    padding: 60px 0;
+    background: rgb(29, 27, 27);
+}
+
+footer .contacto .titulo{
+    font-size: 34px;
+    line-height:34px;
+    margin-bottom: 40px;
+    font-weight:600;
+    color: #0568cb;
+    text-align: center;
+    opacity: 0.8;
+}
+footer .contacto .titulo:hover{
+    opacity:1;
+}
+
+footer .contacto .formulario{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"],
+footer .contacto .formulario textarea {
+  border: 2px solid #cecece;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #a4a4a4;  
+}
+footer .contacto .formulario input[type="text"]:hover,
+footer .contacto .formulario input[type="email"]:hover,
+footer .contacto .formulario textarea:hover{
+    outline: none;
+    box-shadow: 2px 2px 4px #2075ed;
+    border: 2px solid #2075ed;
+}
+
+footer .contacto .formulario input[type="text"]:focus,
+footer .contacto .formulario input[type="email"]:focus,
+footer .contacto .formulario textarea:focus{
+    box-shadow: 4px 4px 6px #13038a;
+    border: 2px solid #13038a;
+    outline: none;
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"]{
+    width:42.5%;
+    margin-bottom: 15px;
+}
+
+footer .contacto .formulario textarea{
+    width: 90%;
+    height: 100px;
+    min-width: 90%;
+    max-width: 90%;
+    min-height: 100px;
+    max-height: 300px;
+    margin-bottom: 15px;
+}
+
+footer .contacto .formulario .boton{
+    margin: auto;
+    background: #2075ed;
+    color: #fff;
+    border: 2px solid #0568cb;
+    padding: 15px 40px ;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+footer .contacto .formulario .boton:hover{
+    background: #13038a;
+    border: 2px solid #13038a;
+}
+
+/* ------- --- Redes Sociales --- -------*/
+
+footer .redes-sociales{
+    background: #1e2b38;
+    padding: 60px 0;
+}
+
+footer .redes-sociales .contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+footer .redes-sociales a{
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    border-radius: 5%;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+footer .redes-sociales .twitter:hover {
+    background: #1da1f2;
+    border: double 3px #000;
+}
+
+footer .redes-sociales .facebook:hover {
+    background: #1877f2;
+    border: double 3px #000;
+}
+
+footer .redes-sociales .youtube:hover {
+    background: #ff0000;
+    border: double 3px #000;
+}
+
+footer .redes-sociales .github:hover {
+    background: #333;
+    border: double 3px #000;
+}
+
+footer .redes-sociales .instagram:hover {
+    background: #833ab4;
+    border: double 3px #000;
+}
+
+@media screen and (max-width: 800px) {
+   header .menu{
+    text-align: center;
+   }
+
+   .main .proyectos .contenedor-proyectos .proyecto{
+       width: 46%;
+   }
+
+}
+
+@media screen and (max-width: 500px) {
+    header .contenedor-texto .texto .nombre {
+     font-size: 35px ;
+    }
+ 
+    header .contenedor-texto .texto .profesion {
+        font-size: 18px ;
+    }
+
+    footer .redes-sociales .contenedor{
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+ 
+ }
