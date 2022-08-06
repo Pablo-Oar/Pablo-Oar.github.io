@@ -4,9 +4,15 @@
     padding: 0;
 }
 
+:root{
+    --celeste: #2075ed;
+    --poppins: 'Poppins', sans-serif;
+    --open-sans: "Open Sans",sans-serif;
+}
+
 body {
     background: #fff;
-    font-family:"Open Sans",sans-serif;
+    font-family: var(--open-sans);
     font-size: 16px;
 }
 
@@ -19,7 +25,7 @@ body {
 
 /* ------- --- INICIO HEADER --- -------*/
 header{
-    background: url('../img/bg.jpg') #49a3d6;
+    background: url('../img/bg.jpg') var(--celeste);
     background-repeat: no-repeat;
     background-position: center;
     max-height: 500px;
@@ -158,7 +164,8 @@ header .contenedor-texto .texto .profesion{
 /*-----------------Seccion cursos-----------------*/
 
 .main .cursos{
-    background-color: #a1e1f5;
+    background-color: var(--celeste);
+    padding-top: 40px;
 }
 
 .main .cursos .contenedor{
@@ -223,6 +230,7 @@ header .contenedor-texto .texto .profesion{
     font-weight: 700;
     color: #000000;
     margin-bottom: 10px;
+    font-family: var(--poppins);
 }
 .main .cursos .contenedor-cursos .curso .descripcion .categoria{
     font-size: 14px;
@@ -231,6 +239,8 @@ header .contenedor-texto .texto .profesion{
 }
 
 /*-----------------Fin seccion cursos-------------*/
+
+/*------------INICIO SECCION DE PROYECTOS--------------*/
 .main .proyectos{
     background: #f9f6f6;
     padding: 60px;
@@ -296,7 +306,7 @@ header .contenedor-texto .texto .profesion{
 
 .main .proyectos .contenedor-proyectos .proyecto .descripcion .nombre{
     font-weight: 700;
-    color: #c0bcbe;
+    color: var(--celeste);
     margin-bottom: 10px;
 }
 .main .proyectos .contenedor-proyectos .proyecto .descripcion .categoria{
@@ -319,7 +329,7 @@ footer .contacto .titulo{
     line-height:34px;
     margin-bottom: 40px;
     font-weight:600;
-    color: #0568cb;
+    color: var(--celeste);
     text-align: center;
     opacity: 0.8;
 }
@@ -346,15 +356,15 @@ footer .contacto .formulario input[type="text"]:hover,
 footer .contacto .formulario input[type="email"]:hover,
 footer .contacto .formulario textarea:hover{
     outline: none;
-    box-shadow: 2px 2px 4px #2075ed;
+    box-shadow: 2px 2px 4px var(--celeste);
     border: 2px solid #2075ed;
 }
 
 footer .contacto .formulario input[type="text"]:focus,
 footer .contacto .formulario input[type="email"]:focus,
 footer .contacto .formulario textarea:focus{
-    box-shadow: 4px 4px 6px #13038a;
-    border: 2px solid #13038a;
+    box-shadow: 4px 4px 6px #201383;
+    border: 2px solid #201383;
     outline: none;
 }
 
@@ -376,7 +386,7 @@ footer .contacto .formulario textarea{
 
 footer .contacto .formulario .boton{
     margin: auto;
-    background: #2075ed;
+    background: var(--celeste); 
     color: #fff;
     border: 2px solid #0568cb;
     padding: 15px 40px ;
@@ -386,8 +396,8 @@ footer .contacto .formulario .boton{
 }
 
 footer .contacto .formulario .boton:hover{
-    background: #13038a;
-    border: 2px solid #13038a;
+    background: #201383;
+    border: 2px solid #201383;
 }
 
 /* ------- --- Redes Sociales --- -------*/
@@ -437,6 +447,8 @@ footer .redes-sociales .instagram:hover {
     background: #833ab4;
     border: double 3px #000;
 }
+
+/*-----------------MEDIA QS--------------------*/
 
 @media screen and (max-width: 800px) {
    header .menu{
