@@ -8,6 +8,7 @@
     --celeste: #2075ed;
     --poppins: 'Poppins', sans-serif;
     --open-sans: "Open Sans",sans-serif;
+    --titulos-size: 50px;
 }
 
 body {
@@ -148,7 +149,7 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .acerca-de .texto .titulo{
-    font-size:34px;
+    font-size:var(--titulos-size);
     line-height:34px;
     margin-bottom: 40px;
     font-weight: 600;
@@ -173,7 +174,8 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .cursos .contenedor .titulo{
-    font-size: 34px;
+    font-size: var(--titulos-size);
+    padding: 20px 0;
     line-height:34px;
     margin-bottom: 40px;
     font-weight:600;
@@ -252,7 +254,8 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .proyectos .titulo{
-    font-size: 34px;
+    font-size: var(--titulos-size);
+    padding: 20px 0;
     line-height:34px;
     margin-bottom: 40px;
     font-weight:600;
@@ -325,7 +328,8 @@ footer .contacto {
 }
 
 footer .contacto .titulo{
-    font-size: 34px;
+    font-size: var(--titulos-size);
+    padding: 20px 0;
     line-height:34px;
     margin-bottom: 40px;
     font-weight:600;
@@ -333,6 +337,7 @@ footer .contacto .titulo{
     text-align: center;
     opacity: 0.8;
 }
+
 footer .contacto .titulo:hover{
     opacity:1;
 }
