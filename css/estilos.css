@@ -165,7 +165,9 @@ header .contenedor-texto .texto .profesion{
 /*-----------------Seccion cursos-----------------*/
 
 .main .cursos{
-    background-color: var(--celeste);
+    background: url('../img/Secciones/cursos.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
     padding-top: 40px;
 }
 
@@ -179,7 +181,7 @@ header .contenedor-texto .texto .profesion{
     line-height:34px;
     margin-bottom: 40px;
     font-weight:600;
-    color: #060607;
+    color: #dbdaf3;
     text-align: center;
     opacity: 0.8;
 }
@@ -230,7 +232,7 @@ header .contenedor-texto .texto .profesion{
 
 .main .cursos .contenedor-cursos .curso .descripcion .nombre{
     font-weight: 700;
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 10px;
     font-family: var(--poppins);
 }
@@ -464,7 +466,38 @@ footer .redes-sociales .instagram:hover {
        width: 46%;
    }
 
+   .main .cursos .contenedor-cursos .curso{
+    width: 46%;
 }
+.main .cursos{
+    background-repeat: repeat;
+}
+
+}
+
+@media screen and (max-width: 590px) {
+    
+    .main .proyectos .contenedor-proyectos .proyecto{
+        width: 90%;
+    }
+
+    .main .proyectos .contenedor .titulo{
+        line-height: 1.5;
+    }
+    
+    .main .cursos .contenedor-cursos .curso{
+        width: 46%;
+    }
+
+    .main .cursos .contenedor .titulo{
+        line-height: 1.5;
+    }
+   
+    .main .cursos{
+        background-repeat: repeat;
+    }
+ 
+ }
 
 @media screen and (max-width: 500px) {
     header .contenedor-texto .texto .nombre {
@@ -478,6 +511,36 @@ footer .redes-sociales .instagram:hover {
     footer .redes-sociales .contenedor{
         flex-wrap: wrap;
         padding: 20px 0;
+    }
+
+    .main .cursos{
+        background-repeat: repeat;
+    }
+    .main .proyectos .contenedor .titulo{
+        line-height: 1.5;
+    }
+ 
+ }
+ @media screen and (max-width: 390px) {
+    
+    .main .cursos .contenedor-cursos .curso{
+        width: 90%;
+    }
+
+    .main .cursos .contenedor .titulo{
+        line-height: 1.5;
+    }
+
+    .main .proyectos .contenedor .titulo{
+        line-height: 1.5;
+    }
+
+    .main .proyectos .contenedor-proyectos .proyecto{
+        width: 90%;
+    }
+    
+    .main .cursos{
+        background-repeat: repeat;
     }
  
  }
