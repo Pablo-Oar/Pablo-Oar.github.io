@@ -213,6 +213,7 @@ header .contenedor-texto .texto .profesion{
 
 .main .proyectos .contenedor-proyectos .proyecto .descripcion{
     text-align: center;
+    width: 80%;
 }
 
 .main .proyectos .contenedor-proyectos .proyecto .descripcion .nombre{
