@@ -217,6 +217,7 @@ header .contenedor-texto .texto .profesion{
     border-radius: 100%;
     transition: .2s transform ease;
     opacity: 0.5;
+    background-size: cover;
 }
 
 .main .cursos .contenedor-cursos .curso .thumm-curso img:hover {
