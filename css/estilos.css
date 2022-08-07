@@ -519,6 +519,18 @@ footer .redes-sociales .instagram:hover {
     .main .proyectos .contenedor .titulo{
         line-height: 1.5;
     }
+
+    footer .contacto .formulario input{
+        width: 100%;
+    }
+
+    footer .contacto .formulario input[type="text"],
+    footer .contacto .formulario input[type="email"],
+    footer .contacto .formulario textarea{
+    width:100%;
+    margin-bottom: 15px;
+    min-width: 100%;
+}
  
  }
  @media screen and (max-width: 390px) {
@@ -541,6 +553,14 @@ footer .redes-sociales .instagram:hover {
     
     .main .cursos{
         background-repeat: repeat;
+    }
+
+    footer .contacto .formulario input[type="text"],
+    footer .contacto .formulario input[type="email"],
+    footer .contacto .formulario textarea{
+    width:100%;
+    margin-bottom: 15px;
+    min-width: 100%;
     }
  
  }
