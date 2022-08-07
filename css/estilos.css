@@ -64,6 +64,7 @@ header .menu nav ul li a {
     font-size: 1em;
     border-bottom: 2px solid transparent;
     font-weight: bold;
+    transition: 1.5s ease; 
 }
 
 header .menu a:hover{
@@ -275,7 +276,7 @@ header .contenedor-texto .texto .profesion{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0 10px 0 15px;
+    margin: 0 10px 0 10px;
 }
 
 .main .proyectos .contenedor-proyectos .proyecto{
@@ -468,10 +469,10 @@ footer .redes-sociales .instagram:hover {
 
    .main .cursos .contenedor-cursos .curso{
     width: 46%;
-}
-.main .cursos{
-    background-repeat: repeat;
-}
+    }
+    .main .cursos{
+    background-size: cover;
+    }
 
 }
 
@@ -494,7 +495,7 @@ footer .redes-sociales .instagram:hover {
     }
    
     .main .cursos{
-        background-repeat: repeat;
+        background-size: cover;
     }
  
  }
@@ -514,7 +515,7 @@ footer .redes-sociales .instagram:hover {
     }
 
     .main .cursos{
-        background-repeat: repeat;
+        background-size: cover;
     }
     .main .proyectos .contenedor .titulo{
         line-height: 1.5;
@@ -530,11 +531,30 @@ footer .redes-sociales .instagram:hover {
     width:100%;
     margin-bottom: 15px;
     min-width: 100%;
-}
+    }
+
+    .main .acerca-de .texto .titulo, 
+    .main .cursos .contenedor .titulo,
+    .main .proyectos .contenedor .titulo,
+    footer .contacto .contenedor .titulo{
+        font-size: 30px;
+    }
  
  }
  @media screen and (max-width: 390px) {
     
+    header .contenedor-texto .texto .nombre{
+        font-size: 25px;
+    }
+
+    header .contenedor-texto .texto .profesion{
+        font-size: 20px;
+    }
+
+    header .menu nav ul li a {
+        font-size: 11px;
+    }
+
     .main .cursos .contenedor-cursos .curso{
         width: 90%;
     }
@@ -561,6 +581,59 @@ footer .redes-sociales .instagram:hover {
     width:100%;
     margin-bottom: 15px;
     min-width: 100%;
+    }
+
+    .main .acerca-de .texto .titulo, 
+    .main .cursos .contenedor .titulo,
+    .main .proyectos .contenedor .titulo,
+    footer .contacto .contenedor .titulo{
+        font-size: 30px;
+    }
+
+    .main .cursos .contenedor-cursos .curso .thumm-curso{
+        width:90%;
+        height: 140px;
+        margin: 0 10px 10px 10px;
+    }
+
+    .main .cursos .contenedor-cursos .curso .thumm-curso img{
+        width: 100%;
+        height: 140px;
+        align-items: center;
+    }
+
+    .main .cursos .contenedor-cursos .curso .descripcion{
+        text-align: center;
+        width: 100%;
+    }
+    
+    .main .cursos .contenedor-cursos .curso .descripcion .nombre{
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 10px;
+        font-family: var(--poppins);
+        font-size: 15px;
+    }
+
+    .main .proyectos{
+        width:100%;
+        margin: 0 ;
+        padding:0;
+    }
+
+    .main .proyectos .contenedor-proyectos .proyecto{
+        width: 100%;
+    }
+    
+    .main .proyectos .contenedor-proyectos .proyecto .thumb{
+        width:100%;
+        height: 240px;
+        margin: 0 10px 10px 10px;
+    }
+
+    .main .proyectos .contenedor-proyectos .proyecto .descripcion{
+        text-align: center;
+        width: 100%;
     }
  
  }
