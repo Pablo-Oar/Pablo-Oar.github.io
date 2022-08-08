@@ -40,7 +40,7 @@ header .menu nav {
     width: 100%;
     justify-content: flex-end;
     align-items: center;
-    background: rgba(0, 0, 0,0.7);
+    background: rgba(0, 0, 0,0.9);
 }
 
 header .menu nav ul{
@@ -64,14 +64,12 @@ header .menu nav ul li a {
     font-size: 1em;
     border-bottom: 2px solid transparent;
     font-weight: bold;
-    transition: 1.5s ease; 
 }
 
 header .menu a:hover{
     border-bottom: 2px solid #fff;
     padding: 15px 10px 9px 10px;
-    background-color: rgba(255, 255, 255,0.4);
-    color: rgba(52, 73, 94,1);
+    background-color: var(--celeste);
     font-weight: bold;
 }
 
