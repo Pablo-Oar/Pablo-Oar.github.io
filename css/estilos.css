@@ -203,25 +203,37 @@ header .contenedor-texto .texto .profesion{
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(78, 7, 57, 0.3));
+    border-radius: 5px;
+    padding-top: 35px;
 }
 
 .main .cursos .contenedor-cursos .curso .thumm-curso{
     width:100%;
     height: 100%;
-    margin: 0 10px 10px 10px;
+    margin: 0 0 10px  0;
     display: flex;
     justify-content: center;
     align-content: center;
 }
 
+.main .cursos .contenedor-cursos .curso .thumm-curso a{
+    width:180px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
-.main .cursos .contenedor-cursos .curso .thumm-curso img{
-    width: 80%;
-    height: 80%;
+.main .cursos .contenedor-cursos .curso .thumm-curso a img{
+    width: 140px;
+    height: 140px;
     border-radius: 100%;
     transition: .2s transform ease;
     opacity: 0.7;
-    background-size: cover;
+    background-size: cover; 
+    justify-content: center;
+    align-content: center;
+    
 }
 
 .main .cursos .contenedor-cursos .curso .thumm-curso img:hover {
@@ -602,8 +614,8 @@ footer .redes-sociales .instagram:hover {
     }
 
     .main .cursos .contenedor-cursos .curso .thumm-curso img{
-        width: 100%;
-        height: 140px;
+        width: 80%;
+        height: 100px;
         align-items: center;
     }
 
