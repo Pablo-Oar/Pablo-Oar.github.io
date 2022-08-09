@@ -40,7 +40,7 @@ header .menu nav {
     width: 100%;
     justify-content: flex-end;
     align-items: center;
-    background: rgba(0, 0, 0,0.9);
+    background: rgb(0, 0, 0);
 }
 
 header .menu nav ul{
@@ -64,6 +64,7 @@ header .menu nav ul li a {
     font-size: 1em;
     border-bottom: 2px solid transparent;
     font-weight: bold;
+    transition: .6s;
 }
 
 header .menu a:hover{
@@ -164,7 +165,7 @@ header .contenedor-texto .texto .profesion{
 /*-----------------Seccion cursos-----------------*/
 
 .main .cursos{
-    background: url('../img/Secciones/cursos.jpg');
+    background: linear-gradient(rgba(1, 27, 48, 0.9),rgba(26, 3, 32, 0.9), rgba(48, 0, 70, 0.8)), url("../img/Secciones/cursos.jpg");
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 40px;
@@ -180,7 +181,7 @@ header .contenedor-texto .texto .profesion{
     line-height:34px;
     margin-bottom: 40px;
     font-weight:600;
-    color: #dbdaf3;
+    color: var(--celeste);
     text-align: center;
     opacity: 0.8;
 }
@@ -219,7 +220,7 @@ header .contenedor-texto .texto .profesion{
     height: 80%;
     border-radius: 100%;
     transition: .2s transform ease;
-    opacity: 0.5;
+    opacity: 0.7;
     background-size: cover;
 }
 
@@ -251,8 +252,8 @@ header .contenedor-texto .texto .profesion{
 
 /*------------INICIO SECCION DE PROYECTOS--------------*/
 .main .proyectos{
-    background: #f9f6f6;
     padding: 60px;
+    background: linear-gradient(rgba(27, 27, 24, 1), rgba(65, 20, 14, 0.8));
     background-color: #333;
 }
 
