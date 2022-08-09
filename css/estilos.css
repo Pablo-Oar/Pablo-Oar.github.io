@@ -203,15 +203,20 @@ header .contenedor-texto .texto .profesion{
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(78, 7, 57, 0.3));
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(78, 7, 57, 0.3));
     border-radius: 5px;
     padding-top: 35px;
+}
+
+.main .cursos .contenedor-cursos .curso:hover{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(78, 7, 57, 0.6));
+    box-shadow: 3px 3px 8px rgb(0, 0, 0, .6);
 }
 
 .main .cursos .contenedor-cursos .curso .thumm-curso{
     width:100%;
     height: 100%;
-    margin: 0 0 10px  0;
+    margin: 0 0 35px  0;
     display: flex;
     justify-content: center;
     align-content: center;
