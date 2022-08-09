@@ -200,18 +200,23 @@ header .contenedor-texto .texto .profesion{
 .main .cursos .contenedor-cursos .curso{
     width: 30%;
     margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .main .cursos .contenedor-cursos .curso .thumm-curso{
-    width:80%;
-    height: 240px;
+    width:100%;
+    height: 100%;
     margin: 0 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
+
 .main .cursos .contenedor-cursos .curso .thumm-curso img{
-    width: 100%;
-    height: 240px;
-    vertical-align: top;
+    width: 80%;
+    height: 80%;
     border-radius: 100%;
     transition: .2s transform ease;
     opacity: 0.5;
@@ -227,7 +232,7 @@ header .contenedor-texto .texto .profesion{
 
 .main .cursos .contenedor-cursos .curso .descripcion{
     text-align: center;
-    width: 80%;
+    width: 100%;
 }
 
 .main .cursos .contenedor-cursos .curso .descripcion .nombre{
