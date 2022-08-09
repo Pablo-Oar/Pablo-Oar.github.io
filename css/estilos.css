@@ -253,7 +253,7 @@ header .contenedor-texto .texto .profesion{
 /*------------INICIO SECCION DE PROYECTOS--------------*/
 .main .proyectos{
     padding: 60px;
-    background: linear-gradient(rgba(27, 27, 24, 1), rgba(65, 20, 14, 0.8));
+    background: linear-gradient(rgba(27, 27, 24, 1), rgba(44, 13, 9, 0.9));
     background-color: #333;
 }
 
