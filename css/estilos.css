@@ -61,7 +61,7 @@ header .menu nav ul li a {
     padding: 15px 10px 5px 10px;
     color: #fff;
     padding-bottom: 9px;
-    font-size: 1em;
+    font-size: 15px;
     border-bottom: 2px solid transparent;
     font-weight: bold;
     transition: .6s;
@@ -508,13 +508,41 @@ footer .redes-sociales .instagram:hover {
     .main .cursos .contenedor .titulo{
         line-height: 1.5;
     }
-
+   
+    .main .cursos{
+        background-size: cover;
+    }
  
  }
 
 
  @media screen and (max-width: 525px) {
     
+    .main .proyectos .contenedor-proyectos .proyecto  {
+        width: 100%;
+        margin: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .main .proyectos .contenedor-proyectos .proyecto .thumb{
+        width: 100%;
+        align-self: center;
+        justify-self: center;
+        margin-bottom: 25px;
+    }
+
+    .main .proyectos .contenedor-proyectos .proyecto .thumb img:hover{
+        transform: scale(1.1);
+        box-shadow: 6px 6px 10px #0a0a0a;    
+    }
+
+    header .contenedor-texto .texto{
+        padding: 10px 20px;
+    }
+
     header .contenedor-texto .texto .nombre{
         font-size: 25px;
     }
@@ -598,11 +626,6 @@ footer .redes-sociales .instagram:hover {
         width: 100%;
     }
     
-    .main .proyectos .contenedor-proyectos .proyecto .thumb{
-        width:100%;
-        height: 240px;
-        margin: 0 10px 10px 10px;
-    }
 
     .main .proyectos .contenedor-proyectos .proyecto .descripcion{
         text-align: center;
