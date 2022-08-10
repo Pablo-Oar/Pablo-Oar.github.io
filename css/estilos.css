@@ -500,14 +500,7 @@ footer .redes-sociales .instagram:hover {
 
 @media screen and (max-width: 590px) {
     
-    .main .proyectos .contenedor-proyectos .proyecto{
-        width: 90%;
-    }
 
-    .main .proyectos .contenedor .titulo{
-        line-height: 1.5;
-    }
-    
     .main .cursos .contenedor-cursos .curso{
         width: 46%;
     }
@@ -515,60 +508,17 @@ footer .redes-sociales .instagram:hover {
     .main .cursos .contenedor .titulo{
         line-height: 1.5;
     }
-   
-    .main .cursos{
-        background-size: cover;
-    }
+
  
  }
 
-@media screen and (max-width: 500px) {
-    header .contenedor-texto .texto .nombre {
-     font-size: 35px ;
-    }
- 
-    header .contenedor-texto .texto .profesion {
-        font-size: 18px ;
-    }
 
-    footer .redes-sociales .contenedor{
-        flex-wrap: wrap;
-        padding: 20px 0;
-    }
-
-    .main .cursos{
-        background-size: cover;
-    }
-    .main .proyectos .contenedor .titulo{
-        line-height: 1.5;
-    }
-
-    footer .contacto .formulario input{
-        width: 100%;
-    }
-
-    footer .contacto .formulario input[type="text"],
-    footer .contacto .formulario input[type="email"],
-    footer .contacto .formulario textarea{
-    width:100%;
-    margin-bottom: 15px;
-    min-width: 100%;
-    }
-
-    .main .acerca-de .texto .titulo, 
-    .main .cursos .contenedor .titulo,
-    .main .proyectos .contenedor .titulo,
-    footer .contacto .contenedor .titulo{
-        font-size: 30px;
-    }
- 
- }
- @media screen and (max-width: 490px) {
+ @media screen and (max-width: 525px) {
     
     header .contenedor-texto .texto .nombre{
         font-size: 25px;
     }
-
+    
     header .contenedor-texto .texto .profesion{
         font-size: 20px;
     }
@@ -580,7 +530,7 @@ footer .redes-sociales .instagram:hover {
     .main .cursos .contenedor-cursos .curso{
         width: 90%;
     }
-
+    
     .main .cursos .contenedor .titulo{
         line-height: 1.5;
     }
@@ -588,13 +538,14 @@ footer .redes-sociales .instagram:hover {
     .main .proyectos .contenedor .titulo{
         line-height: 1.5;
     }
+    
 
     .main .proyectos .contenedor-proyectos .proyecto{
         width: 90%;
     }
     
     .main .cursos{
-        background-repeat: repeat;
+        background-size: cover;
     }
 
     footer .contacto .formulario input[type="text"],
@@ -656,6 +607,12 @@ footer .redes-sociales .instagram:hover {
     .main .proyectos .contenedor-proyectos .proyecto .descripcion{
         text-align: center;
         width: 100%;
+    }
+
+    
+    footer .redes-sociales .contenedor{
+        flex-wrap: wrap;
+        padding: 20px 0;
     }
  
  }
