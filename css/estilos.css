@@ -563,7 +563,7 @@ footer .redes-sociales .instagram:hover {
     }
  
  }
- @media screen and (max-width: 390px) {
+ @media screen and (max-width: 490px) {
     
     header .contenedor-texto .texto .nombre{
         font-size: 25px;
