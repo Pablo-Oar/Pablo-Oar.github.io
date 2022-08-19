@@ -457,26 +457,31 @@ footer .redes-sociales .twitter:hover {
     background: #1da1f2;
     background: radial-gradient(circle at 30% 107%, #98cdee 0%, #94cef1 5%, #43b5fc 45%,#1da1f2 90%);
     box-shadow: 0px 3px 10px rgba(0,0,0,.8);
+    transform: scale(1.4);
 }
 
 footer .redes-sociales .facebook:hover {
     background: radial-gradient(circle at 30% 107%, #375985 0%, rgb(55, 132, 168) 5%, #0b4da3 45%,#012452 90%);
     box-shadow: 0px 3px 10px rgba(0,0,0,.8);
+    transform: scale(1.4);
 }
 
 footer .redes-sociales .linkedin:hover {
     background: radial-gradient(circle at 30% 107%, #c3e7f8 0%, #39a0cf 5%, #0e76A8 45%,#044d6e 90%);
     box-shadow: 0px 3px 10px rgba(0,0,0,.8);
+    transform: scale(1.4);
 }
 
 footer .redes-sociales .github:hover {
     background: radial-gradient(circle at 30% 107%, #ffffff 0%, #adada8 5%, #57606a 45%,#000000 90%);
     box-shadow: 0px 3px 10px rgba(0,0,0,.8);
+    transform: scale(1.4);
 }
 
 footer .redes-sociales .instagram:hover {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     box-shadow: 0px 3px 10px rgba(0,0,0,.8);
+    transform: scale(1.4);
 }
 
 /*-----------------MEDIA QS--------------------*/
