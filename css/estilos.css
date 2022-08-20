@@ -168,7 +168,8 @@ header .contenedor-texto .texto .profesion{
     background: linear-gradient(rgba(1, 27, 48, 0.9),rgba(26, 3, 32, 0.9), rgba(48, 0, 70, 0.8)), url("../img/Secciones/cursos.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    padding-top: 40px;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
 }
 
 .main .cursos .contenedor{
@@ -274,9 +275,9 @@ header .contenedor-texto .texto .profesion{
 .waves {
     
     position:absolute;
-    top: -60px;
+    top: -90px;
     width: 100%;
-    height:15vh;
+    height:20vh;
     min-height:100px;
     max-height:150px;
   }
