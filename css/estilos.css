@@ -369,7 +369,7 @@ header .contenedor-texto .texto .profesion{
 }
 
 .main .proyectos .contenedor-proyectos .proyecto .thumb::before{
-    content: "Proyecto";
+    content: "";
     position: absolute;
     top: 0;
     bottom: 0;
@@ -391,11 +391,29 @@ header .contenedor-texto .texto .profesion{
     opacity: 0.8;
 }
 
+.main .proyectos .contenedor-proyectos .proyecto .thumb:hover p{
+    opacity: 1;
+}
+
+
 .main .proyectos .contenedor-proyectos .proyecto .thumb img{
     width: 100%;
     height: 240px;
     vertical-align: top;
     border-radius: 5px;
+}
+
+.main .proyectos .contenedor-proyectos .proyecto .thumb  p{
+    position: absolute;
+    opacity: 0;
+    top:35%;
+    left: 5%;
+    right: 5%;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    transition: opacity 1.3s ;
+    transition-delay: 0.3s;
 }
 
 .main .proyectos .contenedor-proyectos .proyecto .descripcion{
