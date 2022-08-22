@@ -415,7 +415,7 @@ header .contenedor-texto .texto .profesion{
     font-size: 1rem;
     text-align: center;
     color: #fff;
-    transition: opacity 1.3s ;
+    transition: opacity 0.2s ;
     transition-delay: 0.3s;
 }
 
