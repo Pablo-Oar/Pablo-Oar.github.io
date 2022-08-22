@@ -30,6 +30,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     max-height: 500px;
+    object-fit: cover;
 }
 
 header .menu nav {
@@ -131,6 +132,7 @@ header .contenedor-texto .texto .profesion{
     border-radius: 100%;
     border: solid 5px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
+    object-fit: cover;
 }
 
 
@@ -239,7 +241,7 @@ header .contenedor-texto .texto .profesion{
     background-size: cover; 
     justify-content: center;
     align-content: center;
-    
+    object-fit: cover;
 }
 
 .main .cursos .contenedor-cursos .curso .thumm-curso img:hover {
@@ -401,6 +403,7 @@ header .contenedor-texto .texto .profesion{
     height: 240px;
     vertical-align: top;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .main .proyectos .contenedor-proyectos .proyecto .thumb  p{
