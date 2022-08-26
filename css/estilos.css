@@ -385,6 +385,7 @@ header .contenedor-texto .texto .profesion{
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
+    border-radius: 5px;
 
 }
 
