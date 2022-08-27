@@ -31,6 +31,7 @@ header{
     background-position: center;
     max-height: 500px;
     object-fit: cover;
+    background-attachment: fixed;
 }
 
 header .menu nav {
