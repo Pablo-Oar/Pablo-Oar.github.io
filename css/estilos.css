@@ -473,13 +473,18 @@ header .contenedor-texto .texto .profesion{
 
 .contenedor-skills{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
-
+.skill{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    padding-bottom: 4rem ;
+}
 .skill img{
-    width: 140px;
-    height: 140px;
+    width: 50%;
 }
 
 /* ---------- FIN SECCION SKILLS ----------*/
@@ -491,7 +496,11 @@ header .contenedor-texto .texto .profesion{
 /* ------- --- Contacto --- -------*/
 footer .contacto {
     padding: 60px 0;
-    background: rgb(29, 27, 27);
+    background: #606c88;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
 }
 
 footer .contacto .titulo{
@@ -518,11 +527,11 @@ footer .contacto .formulario{
 footer .contacto .formulario input[type="text"],
 footer .contacto .formulario input[type="email"],
 footer .contacto .formulario textarea {
-  border: 2px solid #cecece;
-  border-radius: 5px;
-  padding: 15px 20px;
-  font-size: 20px;
-  color: #a4a4a4;  
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    padding: 15px 20px;
+    font-size: 20px;
+    color: #a4a4a4;  
 }
 footer .contacto .formulario input[type="text"]:hover,
 footer .contacto .formulario input[type="email"]:hover,
@@ -632,15 +641,15 @@ footer .redes-sociales .instagram:hover {
 /*-----------------MEDIA QS--------------------*/
 
 @media screen and (max-width: 800px) {
-   header .menu{
+    header .menu{
     text-align: center;
-   }
+    }
 
-   .main .proyectos .contenedor-proyectos .proyecto{
-       width: 46%;
-   }
+    .main .proyectos .contenedor-proyectos .proyecto{
+        width: 46%;
+    }
 
-   .main .cursos .contenedor-cursos .curso{
+    .main .cursos .contenedor-cursos .curso{
     width: 46%;
     }
     .main .cursos{
