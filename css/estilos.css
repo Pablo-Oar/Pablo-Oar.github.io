@@ -757,6 +757,14 @@ footer .redes-sociales .instagram:hover {
         width: 30%;
     }
 
+    .text-skill{
+        color: #fff;
+        font-size: 12rem;
+        opacity: 0.8;
+        box-shadow: 0 0 0.5rem #000;
+        padding: 0 1rem;
+    }
+
     .main .cursos .contenedor-cursos .curso{
         width: 46%;
     }
@@ -891,6 +899,14 @@ footer .redes-sociales .instagram:hover {
         width: 40%;
     }
 
+    .text-skill{
+        color: #fff;
+        font-size: 8rem;
+        opacity: 0.8;
+        box-shadow: 0 0 0.5rem #000;
+        padding: 0 1rem;
+    }
+
     
     footer .redes-sociales .contenedor{
         flex-wrap: wrap;
@@ -901,5 +917,13 @@ footer .redes-sociales .instagram:hover {
 @media screen and (max-width: 375px) {
     .skill{
         width:100%
+    }
+
+    .text-skill{
+        color: #fff;
+        font-size: 6rem;
+        opacity: 0.8;
+        box-shadow: 0 0 0.5rem #000;
+        padding: 0 1rem;
     }
 }
