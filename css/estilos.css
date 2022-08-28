@@ -661,7 +661,7 @@ footer .contacto .formulario .boton{
     margin: auto;
     background: var(--celeste); 
     color: #fff;
-    border: 2px solid #0568cb;
+    border: none;
     padding: 0.94rem 2.5rem ;
     cursor: pointer;
     border-radius: 0.28rem;
