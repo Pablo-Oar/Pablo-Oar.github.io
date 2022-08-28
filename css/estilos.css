@@ -490,7 +490,49 @@ header .contenedor-texto .texto .profesion{
     height: auto;
 }
 .skill img{
-    width: 50%;
+    width: 140px;
+    height: 140px;
+    padding: 10px 10px;
+}
+
+.skills .contenedor-skills .skill .html:hover{
+    box-shadow: 0 0 15px rgb(248, 73, 19);
+    border-radius: 5px;
+}
+
+.skills .contenedor-skills .skill .css:hover{
+    box-shadow: 0 0 15px rgb(0, 124, 226);
+    border-radius: 5px;
+}
+
+.skills .contenedor-skills .skill .sass:hover{
+    box-shadow: 0 0 15px rgb(255, 47, 116);
+    border-radius: 5px;
+}
+
+.skills .contenedor-skills .skill .js:hover{
+    box-shadow: 0 0 15px RGB(231 233 52);
+    border-radius: 5px;
+}
+
+.skills .contenedor-skills .skill  .java:hover{
+    box-shadow: 0 0 15px rgba(255, 5, 5, 0.973);
+    border-radius: 5px;
+}
+
+.skills .contenedor-skills .skill  .spring:hover{
+    box-shadow: 0 0 15px rgb(92, 172, 0);
+    border-radius: 5px;
+}
+
+.skills .contenedor-skills .skill  .node:hover{
+    box-shadow: 0 0 15px rgb(71, 66, 66);
+    border-radius: 5px;
+}
+
+.skills .contenedor-skills .skill  .mysql:hover{
+    box-shadow: 0 0 15px rgb(0,97,138);
+    border-radius: 5px;
 }
 
 /* ---------- FIN SECCION SKILLS ----------*/
