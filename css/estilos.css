@@ -574,26 +574,27 @@ footer .contacto .formulario{
 footer .contacto .formulario input[type="text"],
 footer .contacto .formulario input[type="email"],
 footer .contacto .formulario textarea {
-    border: 2px solid #cecece;
+    border: none;
+    border-bottom: 2px solid #cecece;
     border-radius: 5px;
     padding: 15px 20px;
     font-size: 20px;
-    color: #a4a4a4;  
+    color: var(--celeste);  
+    background: none;
+
 }
 footer .contacto .formulario input[type="text"]:hover,
 footer .contacto .formulario input[type="email"]:hover,
 footer .contacto .formulario textarea:hover{
     outline: none;
-    box-shadow: 2px 2px 4px var(--celeste);
-    border: 2px solid #2075ed;
+    border-bottom: 2px solid var(--celeste);
 }
 
 footer .contacto .formulario input[type="text"]:focus,
 footer .contacto .formulario input[type="email"]:focus,
 footer .contacto .formulario textarea:focus{
-    box-shadow: 4px 4px 6px #201383;
-    border: 2px solid #201383;
     outline: none;
+    border-bottom: 1px solid var(--celeste);
 }
 
 footer .contacto .formulario input[type="text"],
@@ -609,7 +610,7 @@ footer .contacto .formulario textarea{
     max-width: 90%;
     min-height: 100px;
     max-height: 300px;
-    margin-bottom: 15px;
+    margin-bottom: 2rem;
 }
 
 footer .contacto .formulario .boton{
@@ -621,11 +622,11 @@ footer .contacto .formulario .boton{
     cursor: pointer;
     border-radius: 5px;
     font-size: 20px;
+    margin-top: 1rem;
 }
 
 footer .contacto .formulario .boton:hover{
-    background: #201383;
-    border: 2px solid #201383;
+    box-shadow: 0 0 10px var(--celeste);
 }
 
 /* ------- --- Redes Sociales --- -------*/
