@@ -732,7 +732,8 @@ footer .redes-sociales .instagram:hover {
 
 /*-----------------MEDIA QS--------------------*/
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 992px) {
     header .menu{
     text-align: center;
     }
@@ -750,8 +751,11 @@ footer .redes-sociales .instagram:hover {
 
 }
 
-@media screen and (max-width: 590px) {
-    
+@media screen and (max-width: 768px) {
+
+    .skill{
+        width: 30%;
+    }
 
     .main .cursos .contenedor-cursos .curso{
         width: 46%;
@@ -760,15 +764,14 @@ footer .redes-sociales .instagram:hover {
     .main .cursos .contenedor .titulo{
         line-height: 1.5;
     }
-   
+
     .main .cursos{
         background-size: cover;
     }
- 
- }
+}
 
 
- @media screen and (max-width: 525px) {
+@media screen and (max-width: 576px) {
     
     .main .proyectos .contenedor-proyectos .proyecto  {
         width: 100%;
@@ -884,10 +887,19 @@ footer .redes-sociales .instagram:hover {
         width: 100%;
     }
 
+    .skill{
+        width: 40%;
+    }
+
     
     footer .redes-sociales .contenedor{
         flex-wrap: wrap;
         padding: 1.25rem 0;
     }
- 
- }
+}
+
+@media screen and (max-width: 375px) {
+    .skill{
+        width:100%
+    }
+}
