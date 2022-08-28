@@ -24,6 +24,22 @@ body {
     overflow: hidden;
 }
 
+.divider{
+    margin: 0 auto;
+    width: 15%;
+    height: 0.4rem;
+    background-color: #dbdaf3;
+    border: none;
+}
+
+.divider-about{
+    margin: 0 auto;
+    width: 20%;
+    height: 0.4rem;
+    background-color: #727277;
+    border: none;
+}
+
 /* ------- --- INICIO HEADER --- -------*/
 header{
     background: #12c2e9;
@@ -156,7 +172,7 @@ header .contenedor-texto .texto .profesion{
 .main .acerca-de .texto .titulo{
     font-size:var(--titulos-size);
     line-height:34px;
-    margin-bottom: 40px;
+    margin-bottom: 1rem;
     font-weight: 600;
     text-align: center;
     color: #dd820d;
@@ -165,6 +181,10 @@ header .contenedor-texto .texto .profesion{
 
 .main .acerca-de .texto .titulo:hover{
     opacity:1;
+}
+
+.main .acerca-de .texto p{
+    margin-top: 3rem;
 }
 
 /*-----------------Seccion cursos-----------------*/
@@ -183,9 +203,8 @@ header .contenedor-texto .texto .profesion{
 
 .main .cursos .contenedor .titulo{
     font-size: var(--titulos-size);
-    padding: 20px 0;
     line-height:34px;
-    margin-bottom: 40px;
+    margin-bottom: 1rem;
     font-weight:600;
     color: var(--celeste);
     text-align: center;
@@ -201,7 +220,8 @@ header .contenedor-texto .texto .profesion{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0 10px 0 15px;
+    margin: 2rem 0.6rem 0 0.95rem;
+    margin-top: 3rem;
 }
 
 .main .cursos .contenedor-cursos .curso{
@@ -285,10 +305,10 @@ header .contenedor-texto .texto .profesion{
     height:20vh;
     min-height:100px;
     max-height:150px;
-  }
+}
 
   /* Animation */
-  
+
 .parallax > use {
     animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
 }
@@ -338,9 +358,8 @@ header .contenedor-texto .texto .profesion{
 
 .main .proyectos .titulo{
     font-size: var(--titulos-size);
-    padding: 20px 0;
     line-height:34px;
-    margin-bottom: 40px;
+    margin-bottom: 1rem;
     font-weight:600;
     color: #dbdaf3;
     text-align: center;
@@ -356,7 +375,8 @@ header .contenedor-texto .texto .profesion{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 0 10px 0 10px;
+    margin: 3rem 0.6rem 0 0.6rem;
+
 }
 
 .main .proyectos .contenedor-proyectos .proyecto{
@@ -569,7 +589,6 @@ footer .contacto .titulo{
     font-size: var(--titulos-size);
     padding: 20px 0;
     line-height:34px;
-    margin-bottom: 40px;
     font-weight:600;
     color: var(--celeste);
     text-align: center;
@@ -584,6 +603,7 @@ footer .contacto .formulario{
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 3rem;
 }
 
 footer .contacto .formulario input[type="text"],
