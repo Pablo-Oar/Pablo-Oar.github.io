@@ -479,20 +479,35 @@ header .contenedor-texto .texto .profesion{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    gap: 5rem;
+    gap: 2rem;
     padding-bottom: 3rem;
 }
 .skill{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 20%;
     height: auto;
 }
+
 .skill img{
     width: 140px;
     height: 140px;
     padding: 10px 10px;
+}
+
+
+.skill .skill-titulo{
+    opacity: 0;
+    color:#fff;
+    margin-top: 2rem;
+    font-family: var(--poppins);
+}
+
+.skill .img:hover ~ .skill-titulo {
+    transition: 0.7s;
+    opacity: 1;
 }
 
 .skills .contenedor-skills .skill .html:hover{
@@ -576,7 +591,6 @@ footer .contacto .formulario input[type="email"],
 footer .contacto .formulario textarea {
     border: none;
     border-bottom: 2px solid #cecece;
-    border-radius: 5px;
     padding: 15px 20px;
     font-size: 20px;
     color: var(--celeste);  
