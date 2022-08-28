@@ -326,7 +326,7 @@ header .contenedor-texto .texto .profesion{
 /*------------INICIO SECCION DE PROYECTOS--------------*/
 .main .proyectos{
     padding: 60px;
-    background: linear-gradient(rgba(27, 27, 24, 1), rgba(44, 13, 9, 0.9));
+    background: linear-gradient(rgba(27, 27, 24, 1),#2e0e46, #c31432);
     background-color: #333;
 }
 
@@ -466,9 +466,10 @@ header .contenedor-texto .texto .profesion{
 .skills{
     width:100%;
     padding: 3rem 0;
-    background: #000000;
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .contenedor-skills{
