@@ -512,13 +512,13 @@ header .contenedor-texto .texto .profesion{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 20%;
+    width: 15%;
     height: auto;
 }
 
 .skill img{
-    width: 8.75rem;
-    height: 8.75rem;
+    width: 6.75rem;
+    height: 6.75rem;
     padding: 0.6rem 0.6rem;
 }
 
