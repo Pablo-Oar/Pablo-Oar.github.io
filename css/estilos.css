@@ -375,7 +375,9 @@ header .contenedor-texto .texto .profesion{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     margin: 3rem 0 0 0;
+    gap: 1rem;
 
 }
 
@@ -781,6 +783,13 @@ footer .redes-sociales .instagram:hover {
     .main .cursos{
         background-size: cover;
     }
+    .main .proyectos .contenedor-proyectos .proyecto .thumb {
+        height: 10rem;
+    }
+
+    .main .proyectos .contenedor-proyectos .proyecto .thumb img{
+        height: 10rem;
+    }
 }
 
 
@@ -800,6 +809,14 @@ footer .redes-sociales .instagram:hover {
         align-self: center;
         justify-self: center;
         margin-bottom: 1.56rem;
+    }
+
+    .main .proyectos .contenedor-proyectos .proyecto .thumb {
+        height: 15rem;
+    }
+
+    .main .proyectos .contenedor-proyectos .proyecto .thumb img{
+        height: 15rem;
     }
 
 
@@ -934,4 +951,14 @@ footer .redes-sociales .instagram:hover {
         padding: 0.6rem 0.6rem;
     }
     
+}
+
+@media screen and (max-width: 275px) {
+    .main .proyectos .contenedor-proyectos .proyecto .thumb {
+        height: 10rem;
+    }
+
+    .main .proyectos .contenedor-proyectos .proyecto .thumb img{
+        height: 10rem;
+    }
 }
