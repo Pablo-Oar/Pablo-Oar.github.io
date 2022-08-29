@@ -374,9 +374,8 @@ header .contenedor-texto .texto .profesion{
 .main .proyectos .contenedor-proyectos{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    height: auto;
-    margin: 3rem 0.6rem 0 0.6rem;
+    justify-content: space-between;
+    margin: 3rem 0 0 0;
 
 }
 
@@ -436,7 +435,7 @@ header .contenedor-texto .texto .profesion{
     vertical-align: top;
     border-radius: 0.28rem;
     object-fit: cover;
-    
+
 }
 
 .main .proyectos .contenedor-proyectos .proyecto .thumb  p{
