@@ -785,6 +785,8 @@ footer .redes-sociales{
 footer .redes-sociales .contenedor{
     display: flex;
     justify-content: center;
+    align-items: center;
+    overflow: visible;
 }
 
 footer .redes-sociales a{
