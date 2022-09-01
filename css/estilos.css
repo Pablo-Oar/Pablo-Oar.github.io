@@ -934,19 +934,9 @@ footer .redes-sociales .instagram:hover {
 
 @media screen and (max-width: 375px) {
     header .menu nav {
-        flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         text-align: center;
-    }
-    
-    header .menu nav ul {
-        padding: 0;
-    }
-
-    header .menu nav ul li a{
-        width: 100%;
-        border-bottom: 2px solid #fff;
     }
     
     .skill{
