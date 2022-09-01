@@ -833,7 +833,7 @@ footer .redes-sociales .instagram:hover {
     }
 
     header .menu nav ul li a {
-        font-size: 0.69rem;
+        font-size: 0.7rem;
     }
 
     .main .cursos .contenedor-cursos .curso{
@@ -933,6 +933,22 @@ footer .redes-sociales .instagram:hover {
 }
 
 @media screen and (max-width: 375px) {
+    header .menu nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    header .menu nav ul {
+        padding: 0;
+    }
+
+    header .menu nav ul li a{
+        width: 100%;
+        border-bottom: 2px solid #fff;
+    }
+    
     .skill{
         width:100%
     }
@@ -954,6 +970,11 @@ footer .redes-sociales .instagram:hover {
 }
 
 @media screen and (max-width: 275px) {
+
+    header .menu nav ul li a{
+        font-size: 0.5rem;
+    }
+
     .main .proyectos .contenedor-proyectos .proyecto .thumb {
         height: 10rem;
     }
