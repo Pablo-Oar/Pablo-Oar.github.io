@@ -276,6 +276,9 @@ header .contenedor-texto .texto .profesion{
     color: #7e7b7b;
     font-weight: 600;
     line-height: 1.87rem;
+    padding: 0.5rem;
+    border: 0.15rem inset rgba(36, 35, 35, 0.212);
+    box-shadow: 0 0 1rem rgba(36, 35, 35, 0.925);
 }
 
 .main .acerca-de .texto{
