@@ -278,9 +278,25 @@ header .contenedor-texto .texto .profesion{
     opacity:1;
 }
 
-.main .acerca-de .texto p{
+.main .acerca-de .texto .acerca-de-descripcion{
     margin-top: 3rem;
     font-family: var(--open-sans);
+}
+
+.main .acerca-de .texto .acerca-de-descripcion a{
+    text-decoration: none;
+}
+
+.main .acerca-de .texto .acerca-de-descripcion a:visited{
+    color:var(--celeste);
+}
+
+.main .acerca-de .texto .acerca-de-descripcion a:link{
+    color:var(--celeste);
+}
+
+.main .acerca-de .texto .acerca-de-descripcion a:active{
+    color: #000;
 }
 
 /*-----------------Seccion cursos-----------------*/
