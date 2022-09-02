@@ -743,6 +743,7 @@ footer .contacto .formulario{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 3rem;
+    padding-bottom: 1rem;
 }
 
 footer .contacto .formulario input[type="text"],
