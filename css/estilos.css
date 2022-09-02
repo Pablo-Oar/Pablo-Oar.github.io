@@ -222,10 +222,23 @@ header .contenedor-texto .texto .nombre{
     line-height: 3.1rem;
 }
 
+header .contenedor-texto .texto:hover .nombre{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
 header .contenedor-texto .texto .profesion{
     font-size: 1.55rem;
     line-height: 1.55rem;
 }
+
+header .contenedor-texto .texto:hover .profesion{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
 /* ------- --- FIN HEADER --- -------*/
 
 /* ------- --- INICIO MAIN --- -------*/
