@@ -255,15 +255,6 @@ header .contenedor-texto .texto .profesion{
     border: solid 0.28rem rgba(0, 0, 0, 0.8);
 }
 
-.main .acerca-de .texto{
-    color: #5a5a5a;
-    font-weight: 600;
-    font-size: 1em;
-    line-height: 1.87rem;
-    width: 80%;
-    margin: 2.5rem auto 3.75rem auto;
-}
-
 .main .acerca-de .texto .titulo{
     font-size:var(--titulos-size);
     line-height: 2.13rem;
@@ -281,6 +272,15 @@ header .contenedor-texto .texto .profesion{
 .main .acerca-de .texto .acerca-de-descripcion{
     margin-top: 3rem;
     font-family: var(--open-sans);
+    font-size: 1.4rem;
+    color: #7e7b7b;
+    font-weight: 600;
+    line-height: 1.87rem;
+}
+
+.main .acerca-de .texto{
+    width: 80%;
+    margin: 2.5rem auto 3.75rem auto;
 }
 
 .main .acerca-de .texto .acerca-de-descripcion a{
@@ -579,7 +579,7 @@ header .contenedor-texto .texto .profesion{
 .main .proyectos .contenedor-proyectos .proyecto .descripcion .categoria{
     color: #ffffff;
     font-weight: 400;
-    font-size: 1rem;
+    font-family: var(--open-sans);
 }
 /* ------- --- FIN PROYECTOS ----------*/
 
